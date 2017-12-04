@@ -1,3 +1,4 @@
+pipeline{
 node
     stages {
 	stage('Checkout'){
@@ -16,4 +17,4 @@ node
 		}
     }
 }
-
+}
