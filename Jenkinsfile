@@ -11,10 +11,6 @@ agent any
                 sh 'echo "Hello World"'
             }
         }
-	stage('test'){
-		steps{
-			sh 'echo "This build deploys the Jenkinsfile in demo branch"'
-		}
     }
-}
+
 }
