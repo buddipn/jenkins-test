@@ -1,4 +1,3 @@
-pipeline{
 node
     stages {
 	stage('Checkout'){
@@ -13,8 +12,8 @@ node
         }
 	stage('test'){
 		steps{
-			sh 'echo "This build deploys the Jenkinsfile in demo branch"
+			sh 'echo "This build deploys the Jenkinsfile in demo branch"'
 		}
     }
 }
-}
+
