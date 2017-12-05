@@ -10,7 +10,6 @@ pipeline{
         	stage('Build'){
             		steps {
                 		sh 'echo "Job Done"'
-				sh 'echo "Job Done!"'
             		}	
         	}
 	}
