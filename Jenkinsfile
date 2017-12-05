@@ -4,6 +4,7 @@ pipeline{
 		stage('Commit'){
 			steps{
 				sh 'git checkout demo'
+				sh 'git pull'
 			}	
 		}
         	stage('Build'){
