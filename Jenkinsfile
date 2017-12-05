@@ -7,7 +7,7 @@ pipeline{
 				sh 'git checkout demo'
 				sh 'git pull'
 				sh 'git push git@github.com:buddipn/jenkins-test.git'
-				}	
+				//}	
 			}
 		}
         	stage('Build'){
