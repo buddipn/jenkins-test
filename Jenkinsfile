@@ -19,7 +19,7 @@ pipeline{
         	}
 		stage ('Downstream-test'){
 			steps {
-     				def job = build job: 'master'
+     				build job: 'master'
 			}
 		}
 	}
