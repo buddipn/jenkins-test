@@ -9,9 +9,9 @@ pipeline {
         stage('Options') {
             steps {
                 sh 'echo "Select from the following options:"'
-                sh 'echo "${params.USER}"'
-                sh 'echo "${params.BUILD}"'
-                sh 'echo "${params.JOB}"'
+                sh 'echo ${params.USER}'
+                sh 'echo ${params.BUILD}'
+                sh 'echo ${params.JOB}'
             }
         }
         stage('Build') {
