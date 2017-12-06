@@ -17,5 +17,10 @@ pipeline{
                 		sh 'echo "Job Done"'
             		}	
         	}
+		stage ('Downstream-test'){
+			steps {
+     				def job = build job: 'master'
+			}
+		}
 	}
 }
